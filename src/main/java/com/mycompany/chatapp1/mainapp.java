@@ -148,7 +148,24 @@ public class mainapp {
 
                         // SEND OPTION
                         System.out.println(msg.sentMessage());
+                        
+                        //Ask User what to do
+                        System.out.println("\nChoose an option");
+                        System.out.println("1) Send Message");
+                        System.out.println("2) Disregard Message");
+                        System.out.println("3) Store Message");
+                        
+                        int sendChoice = input.nextInt();
+                        input.nextLine();
+                        
+                        //Show remote 
+                        System.out.println(message.sentMessage(sendChoice));
+                        
+                        //Display full message details
+                        System.out.println("\n" + message.printMessages());    
                     }
+                    System.out.println("\nTotal messages sent: "
+                    + Message.returnTotalMessagesStatic());
 
                     break;
 
