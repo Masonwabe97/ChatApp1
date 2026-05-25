@@ -1,0 +1,42 @@
+-J-Duser.language=
+-J-Duser.country=
+@options
+@packages
+--no-fonts
+-encoding
+'UTF-8'
+-protected
+--release
+25
+-sourcepath
+'C:/Users/Student/Documents/NetBeansProjects/ChatApp1/src/main/java'
+-author
+-bottom
+'Copyright &#169; 2026. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'C:/Users/Student/Documents/NetBeansProjects/ChatApp1/target/reports/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'ChatApp1 1.0-SNAPSHOT API'
+-use
+-version
+-windowtitle
+'ChatApp1 1.0-SNAPSHOT API'
+com.mycompany.chatapp1
+C:\Users\Student\Documents\NetBeansProjects\ChatApp1\src\main\java = 1775112696184
+C:\Users\Student\Documents\NetBeansProjects\ChatApp1\target\reports\apidocs\allclasses-index.html = 1775898837627
+C:\Users\Student\Documents\NetBeansProjects\ChatApp1\target\reports\apidocs\allpackages-index.html = 1775898837632
+C:\Users\Student\Documents\NetBeansProjects\ChatApp1\target\reports\apidocs\element-list = 1775898837503
+C:\Users\Student\Documents\NetBeansProjects\ChatApp1\target\reports\apidocs\help-doc.html = 1775898837674
+C:\Users\Student\Documents\NetBeansProjects\ChatApp1\target\reports\apidocs\index-all.html = 1775898837658
+C:\Users\Student\Documents\NetBeansProjects\ChatApp1\target\reports\apidocs\index.html = 1775898837665
+C:\Users\Student\Documents\NetBeansProjects\ChatApp1\target\reports\apidocs\member-search-index.js = 1775898837640
+C:\Users\Student\Documents\NetBeansProjects\ChatApp1\target\reports\apidocs\module-search-index.js = 1775898837634
+C:\Users\Student\Documents\NetBeansProjects\ChatApp1\target\reports\apidocs\overview-tree.html = 1775898837610
+C:\Users\Student\Documents\NetBeansProjects\ChatApp1\target\reports\apidocs\package-search-index.js = 1775898837636
+C:\Users\Student\Documents\NetBeansProjects\ChatApp1\target\reports\apidocs\search.html = 1775898837662
+C:\Users\Student\Documents\NetBeansProjects\ChatApp1\target\reports\apidocs\tag-search-index.js = 1775898837641
+C:\Users\Student\Documents\NetBeansProjects\ChatApp1\target\reports\apidocs\type-search-index.js = 1775898837637
