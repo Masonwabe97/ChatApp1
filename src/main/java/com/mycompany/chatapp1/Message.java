@@ -14,11 +14,10 @@ import org.json.JSONObject;
 
 public final class Message {
 
-    static String returnTotalMessagesStatic() {
-       
+    static String returnTotalMessagesStatic() {  
         return null;
        
-    }
+     }
 
     // Fields
     private String messageID;
