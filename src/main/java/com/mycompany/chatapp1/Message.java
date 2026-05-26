@@ -8,12 +8,16 @@ package com.mycompany.chatapp1;
  *
  * @author Student
  */
+import java.io.FileWriter;
+import java.io.IOException;
 import org.json.JSONObject;
 
 public final class Message {
 
     static String returnTotalMessagesStatic() {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+       
+        return null;
+       
     }
 
     // Fields
@@ -103,10 +107,9 @@ public final class Message {
         try (FileWriter fw = new FileWriter("messages.json", true)) {
             fw.write(obj.toString() + System.lineSeparator());
         }catch (IOException e) {
-                System.out.println("Error saving JSON data: " + e.getMessage);
+                System.out.println("Error saving JSON data: " + e.getMessage());
         }
     }
-
 
     // Return total messages
     public static int returnTotalMessages() {
