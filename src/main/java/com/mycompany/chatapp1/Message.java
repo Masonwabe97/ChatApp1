@@ -12,6 +12,10 @@ import org.json.JSONObject;
 
 public final class Message {
 
+    static String returnTotalMessagesStatic() {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    }
+
     // Fields
     private String messageID;
     private int messageNumber;
@@ -89,6 +93,19 @@ public final class Message {
         System.out.println("Message: " + messageText);
         System.out.println("Message Hash: " + messageHash);
     }
+    
+    public void storeMessages() {
+        JSONObject obj = new JSONObject();
+        obj.put("messageID", this.messageID);
+        obj.put("recipient", this.recipient);
+        obj.put("message", this.messageText);
+
+        try (FileWriter fw = new FileWriter("messages.json", true)) {
+            fw.write(obj.toString() + System.lineSeparator());
+        }catch (IOException e) {
+                System.out.println("Error saving JSON data: " + e.getMessage);
+        }
+    }
 
 
     // Return total messages
@@ -141,7 +158,7 @@ public final class Message {
 
         // Convert to JSON
         JSONObject jsonMessage = msg.toJSON();
-
+   
         // Print JSON
         System.out.println("\nJSON Output:");
         System.out.println(jsonMessage.toString(4));

@@ -159,10 +159,10 @@ public class mainapp {
                         input.nextLine();
                         
                         //Show remote 
-                        System.out.println(message.sentMessage(sendChoice));
+                        System.out.println("message.sentMessage(sendChoice)");
                         
                         //Display full message details
-                        System.out.println("\n" + message.printMessages());    
+                        System.out.println("\n" + "message.printMessages()");    
                     }
                     System.out.println("\nTotal messages sent: "
                     + Message.returnTotalMessagesStatic());
